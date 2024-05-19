@@ -1,38 +1,87 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+#container {
   display: flex;
   flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
+  margin: 150px 800px;
+  border: 7px solid rgb(68, 218, 68);
+  border-radius: 30px;
+  gap: 20px;
+  background-color: #535353;
+  color: rgb(68, 218, 68);
 }
 
-.App-link {
-  color: #61dafb;
+#de {
+  border-radius: 10px;
+  border: 1px solid;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  width: 230px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+#de input {
+  border-radius: 10px;
+  border: 1px solid;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  width: 100px;
 }
+
+#de select {
+  width: 60px;
+  height: 35px;
+  border-radius: 5px;
+}
+
+#para {
+  border-radius: 10px;
+  border: 1px solid;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  width: 230px;
+}
+
+#para select {
+  width: 50px;
+  height: 40px;
+  border-radius: 5px;
+}
+
+#para button {
+  border-radius: 5px;
+  width: 100px;
+  height: 40px;
+  background-color: rgb(68, 218, 68);
+  color: aliceblue;
+  border: 2px solid #fff;
+}
+
+#para button:hover{
+  border-radius: 5px;
+  width: 100px;
+  height: 40px;
+  background-color: #fff;
+  color: rgb(68, 218, 68);
+  border: 2px solid rgb(68, 218, 68);
+}
+
+#resultado {
+  border: 1px solid;
+  border-radius: 30px;
+  padding: 10px;
+  width: 230px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 30px;
+  background-color: #fff;
+  color: black;
+}
+
